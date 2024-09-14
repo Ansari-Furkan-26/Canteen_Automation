@@ -19,7 +19,7 @@ function Profile() {
     <div className="w-full h-screen bg-[#FAF5FF] p-5">
         <div className='text-xl p-5'>
             <Link to="/Home"><FontAwesomeIcon icon={faAngleLeft} /></Link>
-            <center className='text-bg-[#534E55]'>My Profile</center>
+            <center className='text-bg-[#534E55] font-bold'>My Profile</center>
         </div>
 
         {/* User */}
@@ -47,42 +47,50 @@ function Profile() {
 
         {/* Menu */}
         <div className='px-14 mt-10'>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
-                <div className='flex gap-5 '>
-                    <FontAwesomeIcon icon={faSpinner} className='py-2 pl-5'/><h1 className='my-auto block'>Recent Order</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
-            </div>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <Link to='/RecentOrder'><div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
             <div className='flex gap-5 '>
-                <FontAwesomeIcon icon={faCartShopping} className='py-2 pl-5'/> <h1 className='my-auto block'>My Cart</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+                <FontAwesomeIcon icon={faSpinner} className='py-2 pl-5'/><h1 className='my-auto block'>Recent Order</h1>
             </div>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
-            <div className='flex gap-5 '>
-                <FontAwesomeIcon icon={faBell} className='py-2 pl-5'/><h1 className='my-auto block'>Notification</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>  
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+        </div>
+        </Link>
+        
+        <Link to='/Cart'><div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <div className='flex gap-5 '>
+            <FontAwesomeIcon icon={faCartShopping} className='py-2 pl-5'/> <h1 className='my-auto block'>My Cart</h1>
             </div>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
-            <div className='flex gap-5 '>
-                <FontAwesomeIcon icon={faGlobe} className='py-2 pl-5' /><h1 className='my-auto block'>Language</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+        </div>
+        </Link>
+
+        <Link to='/Notification'><div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <div className='flex gap-5 '>
+            <FontAwesomeIcon icon={faBell} className='py-2 pl-5'/><h1 className='my-auto block'>Notification</h1>
             </div>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
-            <div className='flex gap-5 '>
-                <FontAwesomeIcon icon={faCircleInfo} className='py-2 pl-5'/><h1 className='my-auto block'>Help & FAQs</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>  
+        </div>
+        </Link>
+
+        <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <div className='flex gap-5 '>
+            <FontAwesomeIcon icon={faGlobe} className='py-2 pl-5' /><h1 className='my-auto block'>Language - English</h1>
             </div>
-            <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
-            <div className='flex gap-5 '>
-                <FontAwesomeIcon icon={faNewspaper} className='py-2 pl-5'/><h1 className='my-auto block'>Terms & Condition</h1>
-                </div>
-                <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+        </div>
+
+        <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <div className='flex gap-5 '>
+            <FontAwesomeIcon icon={faCircleInfo} className='py-2 pl-5'/><h1 className='my-auto block'>Help & FAQs</h1>
             </div>
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+        </div>
+
+        <div className='bg-[#FFFFFF] p-1 my-1 border cursor-pointer	rounded-xl flex justify-between shadow-lg hover:bg-[#DADADA] hover:border-2'>
+        <div className='flex gap-5 '>
+            <FontAwesomeIcon icon={faNewspaper} className='py-2 pl-5'/><h1 className='my-auto block'>Terms & Condition</h1>
+            </div>
+            <FontAwesomeIcon icon={faChevronRight} className='p-2'/>
+        </div>
         </div>
 
         {/* Account Detail */}

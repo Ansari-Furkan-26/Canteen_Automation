@@ -4,7 +4,7 @@ const Popular3 = () => {
   return (
     <div className="relative w-80 rounded-3xl overflow-hidden transition-transform transform hover:scale-95 shadow-lg">
       {/* Background Image */}
-      <img src="https://i.pinimg.com/564x/19/12/56/191256dda91f4875e315517d45bfbfaf.jpg"
+      <img src="https://i.pinimg.com/564x/5a/b7/f5/5ab7f5406953dbc82ccdb68d8c0feea5.jpg"
         alt="Schezwan Fried Rice" className="w-full h-80 object-cover"/>
 
     {/* Overlay */}
@@ -13,15 +13,15 @@ const Popular3 = () => {
 
       {/* Content */}
       <div className="absolute top-4 left-4 text-white">
-        <h1 className="text-2xl font-medium">Schezwan Fried <br />Rice</h1>
+        <h1 className="text-2xl font-medium">Vada Pav	</h1>
       </div>
 
       {/* Price */}
-      <div className="absolute bottom-16 left-4 text-white text-2xl font-medium">50 &#x20b9;</div>
+      <div className="absolute bottom-16 left-4 text-white text-2xl font-medium">12 &#x20b9;</div>
 
       {/* Buy Now Button */}
       <div className="absolute bottom-4 left-4">
-        <button className="bg-white text-black font-medium text-lg py-2 px-6 rounded-full">Buy Now</button>
+        <button className="bg-[#BDBDBD] opacity-50 text-black font-bold text-lg py-2 px-6 rounded-full">Buy Now</button>
       </div>
 
       {/* Favorite Heart Icon (Placeholder) */}

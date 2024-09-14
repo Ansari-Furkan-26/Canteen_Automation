@@ -9,7 +9,6 @@ import Best1 from '../component/Best1';
 import Best2 from '../component/Best2';
 import Best3 from '../component/Best3';
 import Best4 from '../component/Best4';
-import Best5 from '../component/Best5';
 
 
 function Home() {
@@ -65,12 +64,11 @@ function Home() {
     <div className='pt-5 p-2 font-semibold text-[#323643] text-2xl'>
       <h1>Best Seller</h1> 
 
-      <div className='flex justify-between gap-5 pt-5'>
+      <div className='flex justify-between gap-5 pt-5 px-7'>
         <Best1 />
         <Best2 />
         <Best3 />
         <Best4 />
-        <Best5 />
       </div>
     </div>
 

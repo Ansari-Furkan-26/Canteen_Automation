@@ -1,8 +1,7 @@
 import React from 'react'
 import {Form, Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
-import { faCamera  } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft, faCamera } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
 function EditProfile() {
@@ -36,7 +35,7 @@ function EditProfile() {
     <div className="w-full h-screen bg-[#FAF5FF] p-5">
         <div className='text-xl p-5'>
             <Link to="/Profile"><FontAwesomeIcon icon={faAngleLeft} /></Link>
-            <center className='text-bg-[#534E55]'>Presonal Detail</center>
+            <center className='text-bg-[#534E55] font-bold'>Presonal Detail</center>
         </div>
 
         {/* User */}

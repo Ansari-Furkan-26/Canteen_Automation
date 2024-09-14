@@ -8,6 +8,10 @@ import Home from './Pages/Home';
 import Profile from './Pages/Profile';
 import EditProfile from './Pages/EditProfile';
 import GeneralCanteen from './Pages/GeneralCanteen';
+import Cart from './Pages/Cart';
+import RecentOrder from './Pages/RecentOrder';
+import OrderDetail from './Pages/OrderDetail';
+
 
 import LocomotiveScroll from 'locomotive-scroll';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
@@ -51,11 +55,23 @@ function App() {
     {
       path: "/EditProfile",
       element: <><EditProfile/></>,
+    },   
+    {
+      path: "/Cart",
+      element: <><Cart/></>,
     },    
     {
       path: "/GeneralCanteen",
       element: <><GeneralCanteen/></>,
-    },
+    }, 
+    {
+      path: "/OrderDetail",
+      element: <><OrderDetail/></>,
+    }, 
+    {
+      path: "/RecentOrder",
+      element: <><RecentOrder/></>,
+    }, 
   ]);
 
   return (

@@ -21,6 +21,7 @@
     "framer-motion": "^11.0.25",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.11",
+    "lottie-react": "^2.4.0",
     "primereact": "^10.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

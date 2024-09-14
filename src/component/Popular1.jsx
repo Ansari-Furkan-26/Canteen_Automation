@@ -22,7 +22,7 @@ const Popular1 = () => {
 
       {/* Buy Now Button */}
       <div className="absolute bottom-4 left-4">
-        <Link to="/#"><button className="bg-white text-black font-medium text-lg py-2 px-6 rounded-full">Buy Now</button></Link>
+        <Link to="/Cart"><button className="bg-[#BDBDBD] opacity-50 text-black font-bold text-lg py-2 px-6 rounded-full">Buy Now</button></Link>
       </div>
 
       {/* Favorite Heart Icon (Placeholder) */}
